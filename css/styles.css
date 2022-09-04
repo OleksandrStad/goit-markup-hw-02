@@ -57,7 +57,7 @@ body {
     color: #2196F3;
 }
 
-.header-nav .item {
+.header-nav-item {
 
     color: var(--primery-text-color);
     font-weight: 500;
@@ -67,16 +67,16 @@ body {
     text-decoration: none;
 }
 
-.header-nav .item:hover,
-.header-nav .item:focus {
+.header-nav-item:hover,
+.header-nav-item:focus {
     color: var(--accent-color);
 }
 
-.header-nav .item.current {
+.header-nav-item.current {
     color: var(--accent-color)
 }
 
-.header-items .item {
+.header-items-item {
 
     color: var(--primery-text-color);
     font-weight: 500;
@@ -86,8 +86,12 @@ body {
     text-decoration: none;
 }
 
-.header-items .item:hover,
-.header-items .item:focus {
+.grey {
+    color: var(--additional-text-color-1);
+}
+
+.header-items-item:hover,
+.header-items-item:focus {
     color: var(--accent-color)
 }
 
@@ -113,6 +117,7 @@ body {
 
     background-color: var(--accent-color);
     color: var(--additional-text-color-2);
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -146,7 +151,6 @@ body {
 .section-text {
 
     color: var(--additional-text-color-1);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71px;
 }
@@ -171,7 +175,7 @@ body {
 .address-item {
 
     color: var(--additional-text-color-3);
-    font-weight: 400;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
@@ -189,10 +193,11 @@ body {
 /* portfolio */
 
 /* Набір фільтрів */
-.list-button .button-item {
+.button-item {
 
     background-color: var(--additional-background-color-1);
     font-weight: 500;
+    font-style: normal;
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
@@ -216,10 +221,10 @@ body {
 .content-text {
 
     color: var(--additional-text-color-1);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+
+    font-size: 16px;
+    line-height: 1.88;
+
 
 }
 
