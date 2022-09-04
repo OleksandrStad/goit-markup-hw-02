@@ -1,0 +1,237 @@
+:root {
+    --primery-text-color: #212121;
+    --additional-text-color-1: #757575;
+    --additional-text-color-2: #FFFFFF;
+    --additional-text-color-3: rgba(255, 255, 255, 0.6);
+    --color-logo: #000000;
+    --accent-color: #2196F3;
+    --main-background-color: #F5F5F5;
+    --background-color-header: #FFFFFF;
+    --additional-background-color-1: #F5F4FA;
+    --additional-background-color-2: #2F303A;
+
+}
+
+
+body {
+
+    background-color: var(--main-background-color);
+    color: var(--primery-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em
+}
+
+/*   основной цвет тескта  #212121 */
+/* вторичнный цвет текста #757575 */
+/* белый #FFFFFF */
+/* цвет акцента #2196F3 */
+
+/*  цвет шапки #FFFFFF */
+/* основной цвет фона #F5F5F5 */
+/* вторичный цвет фона 1 #F5F4FA */
+/* вторичный цвет фона 2 #2F303A */
+/* основной цвет лого  #000000 */
+/* дополнительный цвет лого #2196F3 */
+
+
+.list {
+    list-style: none;
+}
+
+/* header section */
+.header {
+    background-color: var(--additional-text-color-2);
+}
+
+/* вернуться к стилизации Logo */
+.logo {
+    color: var(--color-logo);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.text-web {
+    color: #2196F3;
+}
+
+.header-nav .item {
+
+    color: var(--primery-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.header-nav .item:hover,
+.header-nav .item:focus {
+    color: var(--accent-color);
+}
+
+.header-nav .item.current {
+    color: var(--accent-color)
+}
+
+.header-items .item {
+
+    color: var(--primery-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.header-items .item:hover,
+.header-items .item:focus {
+    color: var(--accent-color)
+}
+
+
+/* hero section */
+.hero-section {
+    background-color: var(--additional-background-color-2);
+}
+
+.hero-title {
+
+    color: var(--additional-text-color-2);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+
+}
+
+.hero-btn {
+
+
+    background-color: var(--accent-color);
+    color: var(--additional-text-color-2);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    color: var(--accent-color);
+}
+
+/* rest section */
+
+.section-title {
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+
+}
+
+.section-heading {
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+
+}
+
+.section-text {
+
+    color: var(--additional-text-color-1);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+}
+
+.background-section {
+    background-color: var(--additional-background-color-1);
+}
+
+.section-subject {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+
+}
+
+/* footer section */
+.footer {
+    background-color: var(--additional-background-color-2);
+}
+
+.address-item {
+
+    color: var(--additional-text-color-3);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+.white {
+    color: var(--additional-text-color-2);
+}
+
+.address-item:hover,
+.address-item:focus {
+    color: var(--accent-color);
+}
+
+/* portfolio */
+
+/* Набір фільтрів */
+.list-button .button-item {
+
+    background-color: var(--additional-background-color-1);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+
+}
+
+.button-item:hover,
+.button-item:focus {
+    color: var(--accent-color);
+}
+
+/* контент */
+.content-title {
+    color: var(--primery-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.content-text {
+
+    color: var(--additional-text-color-1);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
