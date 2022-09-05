@@ -5,8 +5,6 @@
     --additional-text-color-3: rgba(255, 255, 255, 0.6);
     --color-logo: #000000;
     --accent-color: #2196F3;
-    --main-background-color: #F5F5F5;
-    --background-color-header: #FFFFFF;
     --additional-background-color-1: #F5F4FA;
     --additional-background-color-2: #2F303A;
 
@@ -15,7 +13,6 @@
 
 body {
 
-    background-color: var(--main-background-color);
     color: var(--primery-text-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em
@@ -23,11 +20,7 @@ body {
 
 /*   основной цвет тескта  #212121 */
 /* вторичнный цвет текста #757575 */
-/* белый #FFFFFF */
 /* цвет акцента #2196F3 */
-
-/*  цвет шапки #FFFFFF */
-/* основной цвет фона #F5F5F5 */
 /* вторичный цвет фона 1 #F5F4FA */
 /* вторичный цвет фона 2 #2F303A */
 /* основной цвет лого  #000000 */
@@ -39,11 +32,7 @@ body {
 }
 
 /* header section */
-.header {
-    background-color: var(--additional-text-color-2);
-}
 
-/* вернуться к стилизации Logo */
 .logo {
     color: var(--color-logo);
     font-family: Raleway, sans-serif;
@@ -78,7 +67,7 @@ body {
 
 .header-items-item {
 
-    color: var(--primery-text-color);
+    color: var(--additional-text-color-1);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -86,9 +75,7 @@ body {
     text-decoration: none;
 }
 
-.grey {
-    color: var(--additional-text-color-1);
-}
+
 
 .header-items-item:hover,
 .header-items-item:focus {
@@ -197,7 +184,6 @@ body {
 
     background-color: var(--additional-background-color-1);
     font-weight: 500;
-    font-style: normal;
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
